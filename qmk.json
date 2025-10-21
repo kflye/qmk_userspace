@@ -1,4 +1,13 @@
 {
-    "userspace_version": "1.0",
-    "build_targets": []
+    "userspace_version": "1.1",
+    "build_targets": [
+        ["handwired/dactyl_manuform/5x6_5", "kflye"],
+        ["handwired/dactyl_manuform/4x6_3", "kflye"],
+        ["crkbd/rev1", "kflye"],
+        ["keebio/iris/rev2", "kflye"],
+        ["keychron/v1/iso_encoder", "kflye"],
+        ["reviung/reviung41", "kflye"],
+        ["zsa/moonlander", "kflye"],
+        ["42keebs/rev57lp", "kflye"]
+    ]
 }
