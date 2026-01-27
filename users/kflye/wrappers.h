@@ -125,12 +125,13 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define __________________MEDIA_L4__________________    _______,           _______,           _______,           _______,           _______,           _______
 
 #define __________________MEDIA_R1__________________    UG_TOGG,           UG_NEXT,           UG_VALD,           UG_VALU,           UG_HUEU ,           _______
-#define __________________MEDIA_R2__________________    KC_NO,              KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT ,           _______
+#define __________________MEDIA_R2__________________    KC_NO,             KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT ,           _______
 #define __________________MEDIA_R3__________________    OU_AUTO,           KC_MPLY,           KC_MSTP,           KC_MUTE,           KC_NO    ,           _______
 #define __________________MEDIA_R4__________________    _______,           _______,           _______,           _______,           _______ ,           _______
 
-
+//                                                                         q                  w                  f                  p                  b
 #define ___________________NAV_L1___________________    SK_DELWDR,         SK_QUIT,           SK_CLOZ,           SK_FIND,           KC_MCTL,           KC_LPAD
+//                                                                         a                  r                  s                  t                  g
 #define ___________________NAV_L2___________________    _______,           SK_SALL,           SK_RELD,           SK_SRCH,           SK_NEWTAB,         _______
 #define ___________________NAV_L3___________________    _______,           ________________CLIPBOARD_L________________
 #define ___________________NAV_L4___________________    _______,           _______,           _______,           _______,           _______,           _______
@@ -155,11 +156,16 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define ________________NUMBER_RIGHT________________    KC_6,              KC_7,              KC_8,              KC_9,              KC_0
 
 #define _________________THUMB_LEFT_________________    KC_NO,             KC_NO,             KC_NO,             KC_LGUI,           LALT_T(KC_ESC),    LT(_NAV,KC_SPC)
-#define _________________THUMB_RIGHT________________    LT(_SYM,KC_ENT),   LT(_NUM,KC_TAB),   LT(_FUN, KC_RGUI), KC_NO,             KC_NO,             KC_NO
+#define _________________THUMB_RIGHT________________    LT(_SYM,KC_ENT),   LT(_NUM,KC_TAB),   KC_RGUI,           KC_NO,             KC_NO,             KC_NO
 
 
 // VI Versions
+//                                                                         q.                  w.                e                  r                  t
+#define ___________________NAV_VI_L1________________    SK_DELWDR,         SK_QUIT,           SK_CLOZ,           _______,           SK_RELD,           SK_NEWTAB
+//.                                                                        a                  s                  d                  f                  g
+#define ___________________NAV_VI_L2________________    _______,           SK_SALL,           SK_SRCH,           _______,           SK_FIND,           _______
 
+#define ___________________NAV_VI_R1________________    SK_WORDPRV,        _______,           _______,           SK_WORDNXT,        _______,           SK_DELWDL
 #define ___________________NAV_VI_R2________________    KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           CW_TOGG,           _______
 #define ___________________NAV_VI_R3________________    KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            KC_INS,            _______
 
