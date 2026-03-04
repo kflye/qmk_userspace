@@ -55,15 +55,15 @@ const uint16_t SemKeys_t[SK_count][OS_count] = {
     [SK_ndx(SK_WINNXT)] = {C(KC_TAB),C(KC_TAB)},          // Window/tab switcher Next
     [SK_ndx(SK_WINPRV)] = {C(S(KC_TAB)),C(S(KC_TAB))},    // Window/tab switcher Prev
         // Window management
-    [SK_ndx(SK_WINNXTDIS)] = {LCAG(KC_RIGHT),C(S(KC_TAB))},    // Window next display
-    [SK_ndx(SK_WINPREVDIS)] = {LCAG(KC_LEFT),C(S(KC_TAB))},    // Window previous display
-    [SK_ndx(SK_WINLEFT)] = {LCA(KC_LEFT),C(S(KC_TAB))},        // Window left
-    [SK_ndx(SK_WINRIGHT)] = {LCA(KC_RIGHT),C(S(KC_TAB))},      // Window right
-    [SK_ndx(SK_WINTOP)] = {LCA(KC_UP),C(S(KC_TAB))},           // Window top
-    [SK_ndx(SK_WINBOT)] = {LCA(KC_DOWN),C(S(KC_TAB))},         // Window bottom
-    [SK_ndx(SK_WINRESTORE)] = {LCA(KC_BSPC),C(S(KC_TAB))},     // Window restore
-    [SK_ndx(SK_WINCENTER)] = {LCA(KC_C),C(S(KC_TAB))},         // Window center
-    [SK_ndx(SK_WINMAX)] = {LCA(KC_ENT),C(S(KC_TAB))},          // Window maximize
+    [SK_ndx(SK_WINNXTDIS)] = {LCAG(KC_RIGHT),LGS(KC_RIGHT)},  // Window next display
+    [SK_ndx(SK_WINPREVDIS)] = {LCAG(KC_LEFT),LGS(KC_LEFT)},   // Window previous display
+    [SK_ndx(SK_WINLEFT)] = {LCA(KC_LEFT),G(KC_LEFT)},         // Window left
+    [SK_ndx(SK_WINRIGHT)] = {LCA(KC_RIGHT),G(KC_RIGHT)},      // Window right
+    [SK_ndx(SK_WINTOP)] = {LCA(KC_UP),G(KC_UP)},              // Window top
+    [SK_ndx(SK_WINBOT)] = {LCA(KC_DOWN),G(KC_DOWN)},          // Window bottom
+    [SK_ndx(SK_WINRESTORE)] = {LCA(KC_BSPC),G(KC_DOWN)},      // Window restore
+    [SK_ndx(SK_WINCENTER)] = {LCA(KC_C),G(KC_DOWN)},          // Window center
+    [SK_ndx(SK_WINMAX)] = {LCA(KC_ENT),G(KC_UP)},             // Window maximize
         // Punctuation & typography
     [SK_ndx(SK_NDSH)] = {A(KC_MINS),0x8150},              // – N-Dash
     [SK_ndx(SK_MDSH)] = {LSA(KC_MINS),0x8151},            // — M-Dash
