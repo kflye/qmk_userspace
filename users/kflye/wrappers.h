@@ -103,8 +103,8 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define ___________________NUM_L3___________________    _______,           KC_0,              KC_1,              KC_2,              KC_3,              KC_PLUS
 #define ___________________NUM_L4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
-#define ___________________NUM_R1___________________    TD(TD_QWERTY),     _______,           _______,           _______,           _______,           _______
-#define ___________________NUM_R2___________________    TD(TD_RBT),        KC_AE,             KC_OE,             KC_AA,             _______,           _______
+#define ___________________NUM_R1___________________    TD(TD_QWERTY),     _______,           VRSN,              SHRUG,             SK_Win,            _______
+#define ___________________NUM_R2___________________    TD(TD_RBT),        KC_AE,             KC_OE,             KC_AA,             SK_Mac,            _______
 #define ___________________NUM_R3___________________    TD(TD_BASE),       TD(TD_GAMING),     TD(TD_ALT),        TD(TD_EECLEAR),    TD(TD_BOOT),       _______
 #define ___________________NUM_R4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
@@ -114,9 +114,9 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define ___________________FUN_L4___________________    _______,           _______,           _______,           _______,           _______,           _______
 // TODO: kc_app
 
-#define ___________________FUN_R1___________________    SK_Win,            SK_Mac,            _______,           UC_PREV,           UC_NEXT,           _______
-#define ___________________FUN_R2___________________    SHRUG,             _______,           _______,           _______,           SK_SCAP,           _______
-#define ___________________FUN_R3___________________    VRSN,              _______,           _______,           _______,           SK_SCLP,           _______
+#define ___________________FUN_R1___________________    _______,           SK_WINRESTORE,     SK_WINMAX,         SK_WINCENTER,      _______,           _______
+#define ___________________FUN_R2___________________    SK_WINLEFT,        SK_WINBOT,         SK_WINTOP,         SK_WINRIGHT,       SK_SCAP,           _______
+#define ___________________FUN_R3___________________    SK_WINPREVDIS,     _______,           _______,           SK_WINNXTDIS,      SK_SCLP,           _______
 #define ___________________FUN_R4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
 #define __________________MEDIA_L1__________________    _______,           _______,           _______,           _______,           _______,           _______

@@ -66,6 +66,17 @@ enum sematic_keycodes {
     SK_APPPRV,  // APP switcher Prev (least recently used)
     SK_WINNXT,  // Window/tab switcher Next
     SK_WINPRV,  // Window/tab switcher Prev
+        // Window management
+    SK_WINNXTDIS,  // Window next display
+    SK_WINPREVDIS, // Window prev display
+    SK_WINLEFT,    // Window left
+    SK_WINRIGHT,   // Window right
+    SK_WINTOP,    // Window top
+    SK_WINBOT,    // Window bottom
+    SK_WINRESTORE,  // Window restore
+    SK_WINCENTER,  // Window center
+    SK_WINMAX,     // Window maximize
+
         // Punctuation & typography
     SK_NDSH,    // — N-Dash
     SK_MDSH,    // — M-Dash
