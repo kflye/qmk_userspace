@@ -1,6 +1,8 @@
 // You should use the config.h for configuration options https://docs.qmk.fm/#/config_options
 
-#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_MACOS
+#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_MACOS, UNICODE_MODE_LINUX
+
+#define SHUTDOWN_DELAY 250
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define PERMISSIVE_HOLD

@@ -16,7 +16,7 @@ void keyboard_post_init_user(void) {
 //    user_config.raw = 0; // reset
 //    eeconfig_update_user(user_config.raw); // write the setings to EEPROM
     /*
-    user_config.OSIndex use 0 for Mac; 1 for Win
+    user_config.OSIndex use 0 for Mac; 1 for Win; 2 for Linux
      */
     user_config.raw = eeconfig_read_user();
     eeconfig_read_default_layer(); // get the default layer from eeprom.
@@ -140,6 +140,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 // keymap_config.swap_lctl_lgui = keymap_config.swap_rctl_rgui = true;
                 return_state = false; // stop processing this record.
                 set_unicode_input_mode(UNICODE_MODE_MACOS);
+                goto storeSettings;
+            case SK_Lux:
+                user_config.OSIndex = OS_Lux; // for Linux Semkeys
+                return_state = false; // stop processing this record.
+                set_unicode_input_mode(UNICODE_MODE_LINUX);
                 goto storeSettings;
 
 

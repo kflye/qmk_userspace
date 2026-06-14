@@ -5,9 +5,7 @@
 enum OS_Platform { // Used for platform support via SemKeys
     OS_Mac,     // Mac with ANSI_US_EXTENDED layout
     OS_Win,     // Win with default English/ANSI layout?
-#ifdef INCLUDE_SK_Lux
     OS_Lux,     // Linux (Gnome?/KDE?/Boox Android?)
-#endif
     OS_count
 };
 
