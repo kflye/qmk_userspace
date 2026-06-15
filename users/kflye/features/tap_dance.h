@@ -10,6 +10,9 @@ enum {
     TD_QWERTY,
     TD_GAMING,
     TD_RBT,
+    TD_MAC,
+    TD_WIN,
+    TD_LUX,
     TAP_DANCE_ACTION_COUNT
 };
 
