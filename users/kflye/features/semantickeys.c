@@ -69,7 +69,7 @@ const uint16_t SemKeys_t[SK_count][OS_count] = {
     [SK_ndx(SK_WINBOT)] = {LCA(KC_DOWN),G(KC_DOWN),G(KC_DOWN)},          // Window bottom
     [SK_ndx(SK_WINRESTORE)] = {LCA(KC_BSPC),G(KC_DOWN),G(KC_DOWN)},      // Window restore
     [SK_ndx(SK_WINCENTER)] = {LCA(KC_C),G(KC_DOWN),KC_NO},          // Window center
-    [SK_ndx(SK_WINMAX)] = {LCA(KC_ENT),G(KC_UP),G(KC_UP)},             // Window maximize
+    [SK_ndx(SK_WINMAX)] = {LCA(KC_ENT),G(KC_UP),A(KC_F10)},             // Window maximize
         // Punctuation & typography
     [SK_ndx(SK_NDSH)] = {A(KC_MINS),0x8150,LINUX_UC(0x2013)},              // – N-Dash
     [SK_ndx(SK_MDSH)] = {LSA(KC_MINS),0x8151,LINUX_UC(0x2014)},            // — M-Dash
