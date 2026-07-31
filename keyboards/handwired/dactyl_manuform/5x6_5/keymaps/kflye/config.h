@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define KINETIC_SPEED
 
+#define SPLIT_USB_DETECT
 /*#define MASTER_LEFT*/
 /*#define MASTER_RIGHT*/
 
-#define SPLIT_USB_DETECT
