@@ -32,11 +32,11 @@
     ) \
     LAYOUT_moonlander_wrapper( \
         KC_ESC,  ________________NUMBER_LEFT_________________,     XXX,         XXX,     ________________NUMBER_RIGHT________________,      XXX,\
-        K000,    K001,     K002,     K003,     K004,     K005,     XXX,         KC_AA,   K006,     K007,     K008,     K009,     K010,     K011,\
-        K100,    K101,     K102,     K103,     K104,     K105,     KC_AE,       KC_OE,   K106,     K107,     K108,     K109,     K110,     K111,\
+        K000,    K001,     K002,     K003,     K004,     K005,     XXX,         DK_ARNG, K006,     K007,     K008,     K009,     K010,     K011,\
+        K100,    K101,     K102,     K103,     K104,     K105,     DK_AE,       DK_OSTR, K106,     K107,     K108,     K109,     K110,     K111,\
         K200,    K201,     K202,     K203,     K204,     K205,                           K206,     K207,     K208,     K209,     K210,     K211,\
         XXX,     XXX,      XXX,      K303,     K304,               XXX,         XXX,               K307,     K308,      XXX,      XXX,     XXX,\
-                                                K305,    K303,     KC_LBRC,     KC_RBRC, K308,     K306\
+                                                K305,    K303,     DK_LBRC,     DK_RBRC, K308,     K306\
     )
 
 

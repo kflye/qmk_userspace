@@ -126,10 +126,6 @@ enum sematic_keycodes {
     NEW_NEW_SAFE_RANGE  //use "NEW_NEW_SAFE_RANGE" for keymap specific codes
 };
 
-#define KC_AE UP(AE_L,AE_U)
-#define KC_OE UP(OE_L,OE_U)
-#define KC_AA UP(AA_L,AA_U)
-
 //// Colemak
 
 // Left-hand home row mods (row 1)
@@ -154,7 +150,7 @@ enum sematic_keycodes {
 #define HOME_COL_L RSFT_T(KC_L)
 #define HOME_COL_U LALT_T(KC_U)
 #define HOME_COL_Y RCTL_T(KC_Y)
-#define HOME_COL_SCLN RGUI_T(KC_SCLN)
+#define HOME_COL_SCLN RGUI_T(DK_SCLN)
 
 // Right-hand home row mods (row 2)
 #define HOME_COL_N RSFT_T(KC_N)
@@ -198,7 +194,7 @@ enum sematic_keycodes {
 #define HOME_QWE_J RSFT_T(KC_J)
 #define HOME_QWE_K LALT_T(KC_K)
 #define HOME_QWE_L RCTL_T(KC_L)
-#define HOME_QWE_SCLN RGUI_T(KC_SCLN)
+#define HOME_QWE_SCLN RGUI_T(DK_SCLN)
 
 // Right-hand home row mods (row 3)
 #define HOME_QWE_M RSFT_T(KC_M)

@@ -21,7 +21,7 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define _________________COLEMAK_L2_________________    KC_LCTL,           KC_A,              KC_R,              KC_S,              KC_T,              KC_G
 #define _________________COLEMAK_L3_________________    KC_LSFT,           KC_Z,              KC_X,              KC_C,              KC_D,              KC_V
 
-#define _________________COLEMAK_R1_________________    KC_J,              KC_L,              KC_U,              KC_Y,              KC_SCLN,           KC_BSPC
+#define _________________COLEMAK_R1_________________    KC_J,              KC_L,              KC_U,              KC_Y,              DK_SCLN,           KC_BSPC
 #define _________________COLEMAK_R2_________________    KC_M,              KC_N,              KC_E,              KC_I,              KC_O,              KC_RCTL
 #define _________________COLEMAK_R3_________________    KC_K,              KC_H,              KC_COMM,           KC_DOT,            KC_SLASH,          KC_RSFT
 
@@ -31,7 +31,7 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 
 #define _________________GALLIUM_ROW_R1_____________    KC_J,              KC_F,              KC_O,              KC_U,              KC_COMM,           KC_BSPC
 #define _________________GALLIUM_ROW_R2_____________    KC_Y,              KC_H,              KC_A,              KC_E,              KC_I,              KC_RCTL
-#define _________________GALLIUM_ROW_R3_____________    KC_K,              KC_P,              KC_SLASH,          KC_SCLN,           KC_DOT,            KC_RSFT
+#define _________________GALLIUM_ROW_R3_____________    KC_K,              KC_P,              KC_SLASH,          DK_SCLN,           KC_DOT,            KC_RSFT
 
 #define _________________GALLIUM_COL_L1_____________    KC_DEL,            KC_B,              KC_L,              KC_D,              KC_C,              KC_V
 #define _________________GALLIUM_COL_L2_____________    KC_LCTL,           KC_N,              KC_R,              KC_T,              KC_S,              KC_G
@@ -39,27 +39,27 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 
 #define _________________GALLIUM_COL_R1_____________    KC_J,              KC_Y,              KC_O,              KC_U,              KC_COMM,           KC_BSPC
 #define _________________GALLIUM_COL_R2_____________    KC_P,              KC_H,              KC_A,              KC_E,              KC_I,              KC_RCTL
-#define _________________GALLIUM_COL_R3_____________    KC_K,              KC_F,              KC_SLASH,          KC_SCLN,           KC_DOT,            KC_RSFT
+#define _________________GALLIUM_COL_R3_____________    KC_K,              KC_F,              KC_SLASH,          DK_SCLN,           KC_DOT,            KC_RSFT
 
 #define _________________GRAPHITE_L1________________    KC_DEL,            KC_B,              KC_L,              KC_D,              KC_W,              KC_V
 #define _________________GRAPHITE_L2________________    KC_LCTL,           KC_N,              KC_R,              KC_T,              KC_S,              KC_G
 #define _________________GRAPHITE_L3________________    KC_LSFT,           KC_Q,              KC_X,              KC_M,              KC_C,              KC_Z
 
-#define _________________GRAPHITE_R1________________    KC_SCLN,           KC_F,              KC_O,              KC_U,              KC_J,              KC_BSPC
+#define _________________GRAPHITE_R1________________    DK_SCLN,           KC_F,              KC_O,              KC_U,              KC_J,              KC_BSPC
 #define _________________GRAPHITE_R2________________    KC_Y,              KC_H,              KC_A,              KC_E,              KC_I,              KC_RCTL
-#define _________________GRAPHITE_R3________________    KC_K,              KC_P,              KC_DOT,            KC_SCLN,           KC_SLASH,          KC_RSFT
+#define _________________GRAPHITE_R3________________    KC_K,              KC_P,              KC_DOT,            DK_SCLN,           KC_SLASH,          KC_RSFT
 
 #define _________________QWERTY_L1__________________    KC_DEL,            KC_Q,              KC_W,              KC_E,              KC_R,              KC_T
 #define _________________QWERTY_L2__________________    KC_LCTL,           KC_A,              KC_S,              KC_D,              KC_F,              KC_G
 #define _________________QWERTY_L3__________________    KC_LSFT,           KC_Z,              KC_X,              KC_C,              KC_V,              KC_B
 
 #define _________________QWERTY_R1__________________    KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              KC_BSPC
-#define _________________QWERTY_R2__________________    KC_H,              KC_J,              KC_K,              KC_L,              KC_SCLN,           KC_RCTL
+#define _________________QWERTY_R2__________________    KC_H,              KC_J,              KC_K,              KC_L,              DK_SCLN,           KC_RCTL
 #define _________________QWERTY_R3__________________    KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLASH,          KC_RSFT
 
 #define _________________DVORAK_L1__________________    KC_DEL,            KC_QUOT,           KC_COMM,           KC_DOT,            KC_P,              KC_Y
 #define _________________DVORAK_L2__________________    KC_LCTL,           KC_A,              KC_O,              KC_E,              KC_U,              KC_I
-#define _________________DVORAK_L3__________________    KC_LSFT,           KC_SCLN,           KC_Q,              KC_J,              KC_K,              KC_X
+#define _________________DVORAK_L3__________________    KC_LSFT,           DK_SCLN,           KC_Q,              KC_J,              KC_K,              KC_X
 
 #define _________________DVORAK_R1__________________    KC_F,              KC_G,              KC_C,              KC_R,              KC_L,              KC_BSPC
 #define _________________DVORAK_R2__________________    KC_D,              KC_H,              KC_T,              KC_N,              KC_S,              KC_RCTL
@@ -70,7 +70,7 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define _________________GAMING_L3__________________    KC_LSFT,           KC_Z,              KC_X,              KC_C,              KC_D,              KC_V
 #define _________________GAMING_L4__________________    _______,           _______,           _______,           GAM_WIN,           KC_LALT,           KC_SPC
 
-#define _________________GAMING_R1__________________    KC_J,              KC_L,              KC_U,              KC_Y,              KC_SCLN,           KC_BSPC
+#define _________________GAMING_R1__________________    KC_J,              KC_L,              KC_U,              KC_Y,              DK_SCLN,           KC_BSPC
 #define _________________GAMING_R2__________________    KC_M,              KC_N,              KC_E,              KC_I,              KC_O,              KC_RCTL
 #define _________________GAMING_R3__________________    KC_K,              KC_H,              KC_COMM,           KC_DOT,            KC_SLASH,          KC_RSFT
 #define _________________GAMING_R4__________________    _________________THUMB_RIGHT________________
@@ -81,30 +81,33 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define ______________GAMING_QWERTY_L4______________    _______,           _______,           _______,           GAM_WIN,           KC_LALT,           KC_SPC
 
 #define ______________GAMING_QWERTY_R1______________    KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              KC_BSPC
-#define ______________GAMING_QWERTY_R2______________    KC_H,              KC_J,              KC_K,              KC_L,              KC_SCLN,           KC_RCTL
+#define ______________GAMING_QWERTY_R2______________    KC_H,              KC_J,              KC_K,              KC_L,              DK_SCLN,           KC_RCTL
 #define ______________GAMING_QWERTY_R3______________    KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLASH,          KC_RSFT
 #define ______________GAMING_QWERTY_R4______________    _________________THUMB_RIGHT________________
 
-#define ___________________SYM_L1___________________    _______,           KC_QUOT,           KC_LABK,           KC_RABK,           KC_DQUO,           KC_GRV
-#define ___________________SYM_L2___________________    _______,           KC_EXLM,           KC_MINS,           KC_PLUS,           KC_EQL,            KC_HASH
-#define ___________________SYM_L3___________________    _______,           KC_CIRC,           KC_SLSH,           KC_ASTR,           KC_BSLS,           _______
+// SYM layer uses DK_ keycodes throughout so this file reflects actual output
+// when the OS is set to Danish layout.
+// Dead keys (DK_GRV, DK_CIRC, DK_TILD) are resolved to literals via key overrides.
+#define ___________________SYM_L1___________________    _______,           DK_QUOT,           DK_LABK,           DK_RABK,           DK_DQUO,           DK_GRV
+#define ___________________SYM_L2___________________    _______,           DK_EXLM,           DK_MINS,           DK_PLUS,           DK_EQL,            DK_HASH
+#define ___________________SYM_L3___________________    _______,           DK_CIRC,           DK_SLSH,           DK_ASTR,           DK_BSLS,           _______
 #define ___________________SYM_L4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
-#define ___________________SYM_R1___________________    KC_AMPR,           KC_LBRC,           KC_RBRC,           KC_PERC,           KC_AT,             _______
-#define ___________________SYM_R2___________________    KC_PIPE,           KC_LPRN,           KC_RPRN,           KC_UNDS,           KC_COLN,           _______
-#define ___________________SYM_R3___________________    KC_TILD,           KC_LCBR,           KC_RCBR,           KC_QUES,           KC_DLR,            _______
+#define ___________________SYM_R1___________________    DK_AMPR,           DK_LBRC,           DK_RBRC,           DK_PERC,           DK_AT,             _______
+#define ___________________SYM_R2___________________    DK_PIPE,           DK_LPRN,           DK_RPRN,           DK_UNDS,           DK_COLN,           _______
+#define ___________________SYM_R3___________________    DK_TILD,           DK_LCBR,           DK_RCBR,           DK_QUES,           DK_DLR,            _______
 #define ___________________SYM_R4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
-#define ___________________SYM_LM2__________________    KC_EXLM,           KC_MINS,           KC_PLUS,           KC_EQL,            KC_HASH
-#define ___________________SYM_RM2__________________    KC_PIPE,           KC_LPRN,           KC_RPRN,           KC_UNDS,           KC_QUES
+#define ___________________SYM_LM2__________________    DK_EXLM,           DK_MINS,           DK_PLUS,           DK_EQL,            DK_HASH
+#define ___________________SYM_RM2__________________    DK_PIPE,           DK_LPRN,           DK_RPRN,           DK_UNDS,           DK_QUES
 
 #define ___________________NUM_L1___________________    _______,           KC_SLSH,           KC_7,              KC_8,              KC_9,              KC_ASTR
-#define ___________________NUM_L2___________________    _______,           KC_SCLN,           KC_4,              KC_5,              KC_6,              KC_MINS
+#define ___________________NUM_L2___________________    _______,           DK_SCLN,           KC_4,              KC_5,              KC_6,              KC_MINS
 #define ___________________NUM_L3___________________    _______,           KC_0,              KC_1,              KC_2,              KC_3,              KC_PLUS
 #define ___________________NUM_L4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
 #define ___________________NUM_R1___________________    TD(TD_QWERTY),     TD(TD_BOOT),       VRSN,              SHRUG,             TD(TD_WIN),        _______
-#define ___________________NUM_R2___________________    TD(TD_RBT),        KC_AE,             KC_OE,             KC_AA,             TD(TD_MAC),        _______
+#define ___________________NUM_R2___________________    TD(TD_RBT),        DK_AE,             DK_OSTR,           DK_ARNG,           TD(TD_MAC),        _______
 #define ___________________NUM_R3___________________    TD(TD_BASE),       TD(TD_GAMING),     TD(TD_ALT),        TD(TD_EECLEAR),    TD(TD_LUX),        _______
 #define ___________________NUM_R4___________________    _______,           _______,           _______,           _______,           _______,           _______
 
